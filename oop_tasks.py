@@ -52,6 +52,14 @@ class TaskManager:
             return True
         print(f"Task {task_id} not found.")
         return False
+    
+    def add_task(self, description, due_date=None, priority="medium"):
+        task = Task(self.next_id, description, due_date, priority=priority)
+        self.tasks.append(task)
+        self.next_id += 1
+        self.storage.save_tasks(self.tasks)  # ถ้าใช้ SRP กับ Storage
+        print(f"Task '{description}' added with priority '{priority}'.")
+        return task
 
 
 if __name__ == "__main__":
