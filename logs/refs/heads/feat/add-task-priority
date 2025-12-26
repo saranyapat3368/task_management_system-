@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 862a586c2ffe07d9ab6c9c5bc0b13886e6aff1d7 saranyapat <saranyapat3368@gmail.com> 1755769357 +0700	branch: Created from HEAD
+862a586c2ffe07d9ab6c9c5bc0b13886e6aff1d7 f6ac9b6615cdc00015e6ce297dec9a87997f912d saranyapat <saranyapat3368@gmail.com> 1755780395 +0700	commit: เพิ่มฟีเจอร์ตั้งค่าความสำคัญของ Task
+f6ac9b6615cdc00015e6ce297dec9a87997f912d d68d9edb064fbd6be3134e6d8317ca5222ef362e saranyapat <saranyapat3368@gmail.com> 1755783786 +0700	commit: ci: Add basic Python CI/CD workflow with linting
